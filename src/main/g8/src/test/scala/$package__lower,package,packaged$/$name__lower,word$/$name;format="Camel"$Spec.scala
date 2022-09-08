@@ -4,7 +4,8 @@ package $name;format="lower,word"$
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
 
-class BynderSpec extends AnyFlatSpec with Matchers:
-  "The Bynder library" should "say hello" in {
-    Bynder.message shouldEqual "hello"
+class $name;format="Camel"$Spec extends AnyFlatSpec with Matchers {
+  "$name$" should "say hello" in {
+    $name;format="Camel"$.message shouldEqual "hello"
   }
+}
