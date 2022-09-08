@@ -18,7 +18,7 @@ scalatest_version [3.2.13]:
 scalacheck_version [1.16.0]:
 ```
 
-This creates the complete scaffolding for a new `Scala` Library project. There is a minimum amount of boilerplate code that you will override in your implementation, to test that everything worked correctly run the following from the new project's root directory:
+This creates the complete scaffolding for a new `Scala` Library project. There is a minimum amount of sample code that you will override in your implementation, to test that everything worked correctly run the following from the new project's root directory:
 
 ```shell
 sbt test
