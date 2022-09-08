@@ -28,3 +28,13 @@ You should see the output from `ScalaTest` and / or `ScalaCheck`
 
 
 [g8]: http://www.foundweekends.org/giter8/
+
+## Developing
+
+When developing this template, make sure the code generated has no issues (i.e. typos, compilation failures) by running:
+
+```shell
+sbt g8Test
+```
+
+This should run the scripted plugin and exit without errors
