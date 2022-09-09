@@ -31,7 +31,7 @@ You should see the output from `ScalaTest` and / or `ScalaCheck`
 
 ## Developing
 
-When developing this template, make sure the code generated has no issues (i.e. typos, compilation failures) by running:
+When developing this template, make sure the code generated has no issues (i.e. typos, compilation failures) by running the following from the root of this template project:
 
 ```shell
 sbt g8Test
