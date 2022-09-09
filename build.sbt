@@ -4,6 +4,7 @@
 lazy val root = (project in file("."))
   .enablePlugins(ScriptedPlugin)
   .settings(
+    ThisBuild / dynverSonatypeSnapshots := true,
     name := "Bynder Scala Library",
     Test / test := {
       val _ = (Test / g8Test).toTask("").value
